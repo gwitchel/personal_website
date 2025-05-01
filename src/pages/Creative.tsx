@@ -32,7 +32,7 @@ const projects: Project[] = [
     imageUrl: "/me.JPG",
     categories: ["Photography", "Digital Art", "Design"],
     links: [
-      { url: "https://yourportfolio.com/project1/preview", text: "Read Preview" }
+      // { url: "https://measuringinfinity.substack.com/", text: "" }
     ]
   },
   {

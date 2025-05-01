@@ -33,7 +33,7 @@ const projects: Project[] = [
     categories: ["Running", "Endurance", "Marathon"],
     links: [
       { url: "https://www.outsideonline.com/culture/books-media/why-you-should-know-women-mixed-climbing/", text: "Read about me in Outside Magazine" },
-      { url: "https://yourportfolio.com/marathon/gallery", text: "Watch my Adventure Pro special" }
+      { url: "https://www.youtube.com/watch?v=UrBuKALQtxI&embeds_referring_euri=https%3A%2F%2Fwww.google.com%2Fsearch%3Fsca_esv%3Dd20ad1224ee610a9%26rlz%3D1C5CHFA_enUS1145US1145%26sxsrf%3DAHTn8zrVq6GOvHl_1zUBBewpFlez1CAawg%3A17460&source_ve_path=MjM4NTE", text: "Watch my Adventure Pro special" }
     ]
   },
   {
