@@ -85,7 +85,7 @@ const Athletic: React.FC = () => {
             Athletic Journey
           </Typography>
           <Typography variant="body1" color="text.secondary" sx={{ fontSize: '1.2rem', lineHeight: 1.6 }}>
-            I've been an athlete my whole life. My dad was a pro swimmer, he was a national champion, and held the American record for the 50 free for 18 years. 
+            I've been an athlete my whole life. My dad was a national champion swimmer, he was a national champion. 
             My mom came from a family of professional skiers, raising me at the base of our family run{' '}
             <Box
               component="a"
