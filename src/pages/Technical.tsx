@@ -88,7 +88,7 @@ const Technical: React.FC = () => {
           <Typography variant="body1" color="text.secondary" sx={{ fontSize: '1.2rem', lineHeight: 1.6 }}>
             With an undergrad in Computer Science and a Masters in Bioengineering,
             I've dedicated my life to building software that helps people get access to high quality healthcare.
-            I'm incrdibly greateful to wake up every day and absoutely love what I do.
+            I'm incredibly grateful to wake up every day and absolutely love what I do.
           </Typography>
         </Box>
 

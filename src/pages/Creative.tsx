@@ -84,8 +84,8 @@ const Creative: React.FC = () => {
             Creative Expression
           </Typography>
           <Typography variant="body1" color="text.secondary" sx={{ fontSize: '1.2rem', lineHeight: 1.6 }}>
-            I do everything creative. I sew, I paint, I draw, I take photos, I make art, I make videos, I make websites, I make apps, I write, I sculpt, I thorw cermaics, I knit
-            I make board games... etc. If you want to see more, you can check out my Substack or my instgram{' '}
+            I do everything creative. I sew, I paint, I draw, I take photos, I make art, I make videos, I make websites, I make apps, I write, I sculpt, I throw ceramics, I knit,
+            I make board games... etc. If you want to see more, you can check out my Substack or my Instagram{' '}
             <Box
               component="a"
               href="https://www.instagram.com/gorgagarad/"
@@ -100,7 +100,7 @@ const Creative: React.FC = () => {
                 }
               }}
             >
-              @gorgagard
+              @gorgagarad
             </Box>.
           </Typography>
         </Box>
