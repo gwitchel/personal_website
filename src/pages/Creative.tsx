@@ -79,7 +79,8 @@ const Creative: React.FC = () => {
         gap: 1,
         margin: '0 auto',
       }}>
-        <Box sx={{ textAlign: 'left', maxWidth: '1400px', mb: 4 }}>
+        <Box sx={{ textAlign: 'left', maxWidth: '1200px', mb: 4, px: { xs: 2, md: 0 } }}>
+
           <Typography variant="h4" component="h1" gutterBottom sx={{ fontSize: '1.75rem' }}>
             Creative Expression
           </Typography>

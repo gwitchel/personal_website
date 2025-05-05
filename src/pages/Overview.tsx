@@ -6,12 +6,12 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 const Overview: React.FC = () => {
   return (
     <Box sx={{ 
-      width: '100vw',
-      height: '80vh',
+      width: '100%',
+      minHeight: { xs: 'auto', md: '80vh' },
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',
-      padding: '80px 24px',
+      padding: { xs: '20px 24px', md: '40px 24px' },
       boxSizing: 'border-box',
     }}>
       <Box sx={{ 
@@ -21,17 +21,17 @@ const Overview: React.FC = () => {
         flexDirection: { xs: 'column', md: 'row' },
         alignItems: 'center',
         justifyContent: 'center',
-        gap: 6,
+        gap: { xs: 3, md: 6 },
         borderRadius: '24px',
-        padding: '48px',
+        padding: { xs: '24px', md: '48px' },
       }}>
         <Box
           component="img"
           src="/me_2.JPG"
           alt="Georgia Witchel"
           sx={{
-            width: 280,
-            height: 280,
+            width: { xs: 200, md: 280 },
+            height: { xs: 200, md: 280 },
             borderRadius: '50%',
             objectFit: 'cover',
             boxShadow: '0 10px 30px rgba(0, 0, 0, 0.1)',

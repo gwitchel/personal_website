@@ -68,8 +68,8 @@ export const resumeData: ResumeData = {
       years: "Oct 2024 – present",
       location: "Seattle, Washington",
       responsibilities: [
-        "Developed and launched a HIPPA-compliant onboarding software for Kati Lui's Regenerative Hand Clinic out of Harborview Medical Center in Washington",
-        "Awarded multiple government grants to work alongside the Plastic Surgey team to develop novel Human Pose Estimation models to use in tracking srugical recovery."
+        "Developed and launched a HIPAA-compliant onboarding software for Kati Lui's Regenerative Hand Clinic out of Harborview Medical Center in Washington",
+        "Awarded multiple government grants to work alongside the Plastic Surgery team to develop novel Human Pose Estimation models to use in tracking surgical recovery."
       ]
     },
     {
@@ -140,7 +140,7 @@ export const resumeData: ResumeData = {
       },
       {
         name: "2x GoCode Colorado Finalist",
-        description: "In highschool I was a two time finalst in a year long statewide programming compeition for professional developers"
+        description: "In high school I was a two time finalist in a year long statewide programming competition for professional developers"
       },
       {
         name: "High School Valedictorian",
