@@ -1,22 +1,24 @@
 import React from 'react';
 import { Box, Typography, IconButton, Stack } from '@mui/material';
+import { Link as RouterLink } from 'react-router-dom';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const Overview: React.FC = () => {
   return (
     <Box sx={{ 
-      width: '100%',
+      width: '100vw',
       minHeight: { xs: 'auto', md: '80vh' },
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',
       padding: { xs: '20px 24px', md: '40px 24px' },
       boxSizing: 'border-box',
+      overflow: 'hidden',
     }}>
       <Box sx={{ 
         maxWidth: '1000px',
-        width: '90%',
+        width: { xs: '100%', md: '90%' },
         display: 'flex', 
         flexDirection: { xs: 'column', md: 'row' },
         alignItems: 'center',
@@ -50,7 +52,7 @@ const Overview: React.FC = () => {
             If you're here, you're either a potential employer, a rogue internet stranger, 
             or I finally made it on the google "I'm feeling lucky" button. Either way, 
             welcome! For the sake of brevity, I'll be using the rule of threes. Three areas of my life: technical, creative, 
-            and athletic, and three projects for each (plus my <Box component="a" href="#/resume" sx={{ color: '#E57373', textDecoration: 'none', '&:hover': { textDecoration: 'underline', color: '#3C2A21' } }}>resume</Box>). Enjoy!
+            and athletic, and three projects for each (plus my <Box component={RouterLink} to="/resume" sx={{ color: '#E57373', textDecoration: 'none', '&:hover': { textDecoration: 'underline', color: '#3C2A21' } }}>resume</Box>). Enjoy!
           </Typography>
           
           <Stack direction="row" spacing={2} alignItems="center">
